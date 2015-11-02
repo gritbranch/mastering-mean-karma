@@ -1,0 +1,36 @@
+1. Install Bower globally
+npm install -g bower
+
+2. Install Mocha globally
+npm install –g mocha
+
+3. To run Mocha test
+Unix: 
+a. $ NODE_ENV=test mocha --reporter spec app/tests
+Windows:
+a. set NODE_ENV=test
+b. mocha --reporter spec app/tests
+
+4. Install Karma globally
+npm install -g karma-cli
+
+5. To run Karma test
+Unix: 
+$ NODE_ENV=test karma start
+Windows:
+> set NODE_ENV=test
+> karma start
+
+6. Install Protractor globally
+npm install -g protractor
+webdriver-manager update
+
+7. To run Protractor test
+Unix: 
+$ NODE_ENV=test node server
+Windows:
+> set NODE_ENV=test
+> node server
+
+(Open a new CLI)
+$ Protractor
